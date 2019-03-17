@@ -1,0 +1,118 @@
+main {
+  padding: 40px 0;
+  overflow: hidden; }
+  main .left {
+    float: left;
+    position: relative; }
+    main .left img {
+      width: 320px;
+      height: 320px; }
+    main .left span {
+      width: 130px;
+      height: 100px;
+      background: rgba(200, 200, 200, 0.5);
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: none; }
+    main .left p {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 4;
+      margin: 0;
+      padding: 0; }
+  main .bbox {
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    display: none; }
+    main .bbox img {
+      width: 600px;
+      height: 600px;
+      position: absolute;
+      left: 0;
+      top: 0; }
+  main .right {
+    float: left; }
+    main .right .title {
+      border-bottom: 1px solid #f5f5f5;
+      overflow: hidden;
+      padding: 10px 0; }
+      main .right .title .title-l {
+        float: left;
+        width: 650px;
+        margin-left: 10px; }
+        main .right .title .title-l h1 {
+          font: 500 20px/36px "";
+          color: #000; }
+        main .right .title .title-l span {
+          font: 14px/20px "";
+          color: #000;
+          margin-top: 8px; }
+        main .right .title .title-l p {
+          font: 12px/20px "";
+          color: #666; }
+      main .right .title .title-r {
+        float: left;
+        width: 144px; }
+    main .right .price {
+      padding: 20px 0;
+      margin-left: 10px; }
+      main .right .price span {
+        font: 14px/20px "";
+        color: #666;
+        margin-right: 20px; }
+      main .right .price span.money {
+        font: 24px/30px "";
+        color: #000; }
+    main .right .fourButton {
+      margin-top: 20px;
+      overflow: hidden; }
+      main .right .fourButton .num {
+        float: left;
+        width: 68px;
+        height: 39px;
+        margin: 0 10px 0 64px;
+        border: 1px solid #ddd;
+        overflow: hidden; }
+        main .right .fourButton .num .numbox {
+          float: left;
+          height: 39px;
+          line-height: 39px;
+          width: 48px;
+          border-right: 1px solid #ddd;
+          color: #000;
+          font-size: 16px;
+          text-align: center; }
+          main .right .fourButton .num .numbox input {
+            height: 39px;
+            line-height: 39px;
+            width: 48px;
+            text-align: center;
+            border: 0; }
+        main .right .fourButton .num .numleft {
+          float: left;
+          text-align: center; }
+          main .right .fourButton .num .numleft .ttop {
+            width: 19px;
+            height: 19px;
+            border-bottom: 1px solid #ddd; }
+          main .right .fourButton .num .numleft .bottom {
+            width: 19px;
+            height: 19px; }
+      main .right .fourButton em {
+        float: left;
+        width: 175px;
+        height: 40px;
+        background: red;
+        margin-left: 10px;
+        font: 16px/40px "";
+        color: #fff;
+        text-align: center;
+        cursor: pointer; }

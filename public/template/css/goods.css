@@ -1,0 +1,83 @@
+.filter-cont {
+  padding-bottom: 60px; }
+  .filter-cont .cont1 {
+    overflow: hidden;
+    border-bottom: 1px solid #000;
+    padding-top: 40px;
+    padding-bottom: 20px; }
+    .filter-cont .cont1 span {
+      padding-left: 15px;
+      width: 105px;
+      font: 600 14px/16px "";
+      color: #000;
+      float: left; }
+    .filter-cont .cont1 ul {
+      float: left;
+      border-top: 1px solid #CCCCCC;
+      border-left: 1px solid #CCCCCC;
+      width: 931px;
+      overflow: hidden; }
+      .filter-cont .cont1 ul li {
+        float: left;
+        width: 132px;
+        height: 55px;
+        border-right: 1px solid #CCCCCC;
+        border-bottom: 1px solid #CCCCCC; }
+  .filter-cont .cont2 {
+    border-bottom: 1px solid #000;
+    padding-top: 15px; }
+    .filter-cont .cont2 ul {
+      overflow: hidden; }
+      .filter-cont .cont2 ul li {
+        overflow: hidden;
+        border-bottom: 1px solid #dadada; }
+        .filter-cont .cont2 ul li span {
+          padding-left: 15px;
+          width: 105px;
+          font: 600 14px/50px "";
+          color: #000;
+          float: left; }
+        .filter-cont .cont2 ul li a {
+          float: left;
+          width: 138px;
+          font: 14px/50px "";
+          color: #000; }
+      .filter-cont .cont2 ul li:last-child {
+        border: 0; }
+      .filter-cont .cont2 ul a:hover {
+        color: red; }
+
+.main #cont {
+  background-color: #fff;
+  overflow: hidden;
+  border-top: 1px solid #f7f7f7;
+  border-left: 1px solid #f7f7f7; }
+  .main #cont .box {
+    float: left;
+    width: 236px;
+    height: 259px;
+    border-right: 1px solid #f7f7f7;
+    border-bottom: 1px solid #f7f7f7;
+    text-align: center; }
+    .main #cont .box img {
+      width: 160px;
+      height: 160px; }
+    .main #cont .box p.E-name {
+      font: 600 14px/24px "";
+      color: #000; }
+    .main #cont .box p.name {
+      font: 12px/30px "";
+      color: #000; }
+    .main #cont .box span {
+      font: 12px/2 "";
+      color: #000;
+      margin-top: 10px; }
+    .main #cont .box em {
+      display: inline-block;
+      width: 100px;
+      line-height: 22px;
+      color: #fff;
+      background: #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-left: 10px; }
